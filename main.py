@@ -152,7 +152,7 @@ def main():
                     Box.draw(window, (0,0,204))
 
                 if Box.start:
-                    Box.draw(window, (0,0,200))
+                    Box.draw(window, (255, 165, 0))
                 if Box.wall:
                     Box.draw(window, (90,90,90))
                 if Box.target:
